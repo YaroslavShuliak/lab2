@@ -1,0 +1,7 @@
+C:\Users\ZAKHAR\GIT2\lab2\User\bin\Debug\User.exe.config
+C:\Users\ZAKHAR\GIT2\lab2\User\bin\Debug\User.exe
+C:\Users\ZAKHAR\GIT2\lab2\User\bin\Debug\User.pdb
+C:\Users\ZAKHAR\GIT2\lab2\User\obj\Debug\User.csproj.AssemblyReference.cache
+C:\Users\ZAKHAR\GIT2\lab2\User\obj\Debug\User.csproj.CoreCompileInputs.cache
+C:\Users\ZAKHAR\GIT2\lab2\User\obj\Debug\User.exe
+C:\Users\ZAKHAR\GIT2\lab2\User\obj\Debug\User.pdb

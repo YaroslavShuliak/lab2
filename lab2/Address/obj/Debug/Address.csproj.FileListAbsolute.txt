@@ -1,0 +1,7 @@
+C:\Users\ZAKHAR\GIT2\lab2\Address\bin\Debug\Address.exe.config
+C:\Users\ZAKHAR\GIT2\lab2\Address\bin\Debug\Address.exe
+C:\Users\ZAKHAR\GIT2\lab2\Address\bin\Debug\Address.pdb
+C:\Users\ZAKHAR\GIT2\lab2\Address\obj\Debug\Address.csproj.AssemblyReference.cache
+C:\Users\ZAKHAR\GIT2\lab2\Address\obj\Debug\Address.csproj.CoreCompileInputs.cache
+C:\Users\ZAKHAR\GIT2\lab2\Address\obj\Debug\Address.exe
+C:\Users\ZAKHAR\GIT2\lab2\Address\obj\Debug\Address.pdb

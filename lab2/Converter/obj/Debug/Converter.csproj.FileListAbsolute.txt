@@ -1,0 +1,6 @@
+C:\Users\ZAKHAR\GIT2\lab2\Converter\bin\Debug\Converter.exe.config
+C:\Users\ZAKHAR\GIT2\lab2\Converter\bin\Debug\Converter.exe
+C:\Users\ZAKHAR\GIT2\lab2\Converter\bin\Debug\Converter.pdb
+C:\Users\ZAKHAR\GIT2\lab2\Converter\obj\Debug\Converter.csproj.CoreCompileInputs.cache
+C:\Users\ZAKHAR\GIT2\lab2\Converter\obj\Debug\Converter.exe
+C:\Users\ZAKHAR\GIT2\lab2\Converter\obj\Debug\Converter.pdb
