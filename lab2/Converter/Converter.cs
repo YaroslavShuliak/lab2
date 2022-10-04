@@ -11,10 +11,12 @@ namespace Converter
         private double HryvniaCal { get; set; }
         private readonly double usd;
         private readonly double eur;
-        public Converter(double Usd, double Eur)
+        private readonly double rub;
+        public Converter(double Usd, double Eur, double Rub)
         {
             this.usd = Usd;
             this.eur = Eur;
+            this.rub = Rub;
         }
         public double convert()
         {
@@ -38,14 +40,26 @@ namespace Converter
                 case 3:
                     Console.WriteLine("Пожалуйста, укажите суму");
                     number = Convert.ToInt32(Console.ReadLine());
-                    double UsD = number / 26.32;
-                    Console.WriteLine($"Вы получите {UsD} долларов");
+                    HryvniaCal = number * rub;
+                    Console.WriteLine($"Вы получите {HryvniaCal} гривен");
                     break;
                 case 4:
                     Console.WriteLine("Пожалуйста, укажите суму");
                     number = Convert.ToInt32(Console.ReadLine());
-                    double EuR = number / 30.36;
+                    double UsD = number / usd;
+                    Console.WriteLine($"Вы получите {UsD} долларов");
+                    break;
+                case 5:
+                    Console.WriteLine("Пожалуйста, укажите суму");
+                    number = Convert.ToInt32(Console.ReadLine());
+                    double EuR = number / eur;
                     Console.WriteLine($"Вы получите {EuR} евро");
+                    break;
+                case 6:
+                    Console.WriteLine("Пожалуйста, укажите суму");
+                    number = Convert.ToInt32(Console.ReadLine());
+                    double RuB = number / rub;
+                    Console.WriteLine($"Вы получите {RuB} рублей");
                     break;
                 default:
                     Console.WriteLine("Попробуйте снова");
@@ -58,9 +72,11 @@ namespace Converter
             Console.WriteLine("Какой обмен вы хотите выбрать?");
             Console.WriteLine("1) конвертировать доллары в гривны");
             Console.WriteLine("2) конвертировать евро в гривны");
-            Console.WriteLine("3) конвертировать гривны в доллары");
-            Console.WriteLine("4) конвертировать гривны в евро");
-            Converter converter = new Converter(26.32, 30.36);
+            Console.WriteLine("3) конвертировать рубли в гривны");
+            Console.WriteLine("4) конвертировать гривны в доллары");
+            Console.WriteLine("5) конвертировать гривны в евро");
+            Console.WriteLine("6) конвертировать гривны в рубли");
+            Converter converter = new Converter(26.32, 30.36, 0.63);
             converter.convert();
         }
     }
