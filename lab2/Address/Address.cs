@@ -8,9 +8,8 @@ namespace Address
 {
     internal class Address
     {
-        //I use sonar to understand how to write code better.
         public int Index { get; set; }
-        public string Country { get; set; }
+        public string Country {get; set;}
         public string City { get; set; }
         public string Street { get; set; }
         public string House { get; set; }
